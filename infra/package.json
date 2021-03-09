@@ -1,0 +1,41 @@
+{
+  "name": "lambda-http-api",
+  "version": "0.1.0",
+  "bin": {
+    "lambda-http-api": "bin/lambda-http-api.js"
+  },
+  "scripts": {
+    "build": "tsc",
+    "watch": "tsc -w",
+    "test": "jest",
+    "cdk": "cdk"
+  },
+  "devDependencies": {
+    "@aws-cdk/assert": "1.91.0",
+    "@types/jest": "^26.0.20",
+    "@types/node": "14.14.31",
+    "aws-cdk": "1.91.0",
+    "jest": "^26.6.3",
+    "ts-jest": "^26.5.2",
+    "ts-node": "^9.1.1",
+    "typescript": "~4.2.2"
+  },
+  "dependencies": {
+    "@aws-cdk/aws-amplify": "^1.91.0",
+    "@aws-cdk/aws-apigateway": "^1.91.0",
+    "@aws-cdk/aws-apigatewayv2": "^1.91.0",
+    "@aws-cdk/aws-apigatewayv2-integrations": "^1.91.0",
+    "@aws-cdk/aws-codecommit": "^1.91.0",
+    "@aws-cdk/aws-dynamodb": "^1.91.0",
+    "@aws-cdk/aws-events": "^1.91.0",
+    "@aws-cdk/aws-events-targets": "^1.91.0",
+    "@aws-cdk/aws-kinesis": "^1.91.0",
+    "@aws-cdk/aws-lambda": "^1.91.0",
+    "@aws-cdk/aws-lambda-destinations": "^1.91.0",
+    "@aws-cdk/aws-s3-notifications": "^1.91.0",
+    "@aws-cdk/aws-sns": "^1.91.0",
+    "@aws-cdk/aws-sns-subscriptions": "^1.91.0",
+    "@aws-cdk/core": "1.91.0",
+    "source-map-support": "^0.5.19"
+  }
+}
